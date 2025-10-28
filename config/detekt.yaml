@@ -1,0 +1,21 @@
+formatting:
+  ArgumentListWrapping:
+    maxLineLength: 140
+  FunctionReturnTypeSpacing:
+    maxLineLength: 140
+  FunctionSignature:
+    maxLineLength: 140
+  MaximumLineLength:
+    maxLineLength: 140
+  ParameterListWrapping:
+    maxLineLength: 140
+  ParameterWrapping:
+    maxLineLength: 140
+  PropertyWrapping:
+    maxLineLength: 140
+  Wrapping:
+    maxLineLength: 140
+
+style:
+  MaxLineLength:
+    active: false
