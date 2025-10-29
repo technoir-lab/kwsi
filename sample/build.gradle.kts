@@ -13,6 +13,7 @@ kotlin {
     sourceSets {
         commonMain.dependencies {
             implementation(project(":kwsi"))
+            implementation(libs.kotlin.logging)
         }
     }
 }

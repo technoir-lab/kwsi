@@ -6,8 +6,10 @@
 // - Show declarations: true
 
 // Library unique name: <io.technoirlab.kwsi:kwsi>
-final class io.technoirlab.kwsi/App { // io.technoirlab.kwsi/App|null[0]
-    constructor <init>() // io.technoirlab.kwsi/App.<init>|<init>(){}[0]
+abstract interface io.technoirlab.kwsi/AppLifecycleListener { // io.technoirlab.kwsi/AppLifecycleListener|null[0]
+    open fun onLaunch() // io.technoirlab.kwsi/AppLifecycleListener.onLaunch|onLaunch(){}[0]
+}
 
-    final fun run() // io.technoirlab.kwsi/App.run|run(){}[0]
+final object io.technoirlab.kwsi/App { // io.technoirlab.kwsi/App|null[0]
+    final fun run(io.technoirlab.kwsi/AppLifecycleListener) // io.technoirlab.kwsi/App.run|run(io.technoirlab.kwsi.AppLifecycleListener){}[0]
 }
