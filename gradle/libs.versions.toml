@@ -1,5 +1,5 @@
 [versions]
-kotlin-logging = "7.0.13"
+kotlin-logging = "8.0.4"
 
 [libraries]
 kotlin-logging = { module = "io.github.oshai:kotlin-logging", version.ref = "kotlin-logging" }
